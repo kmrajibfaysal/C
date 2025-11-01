@@ -3,8 +3,6 @@
 
 int main(void)
 {
-    float x = 4;
-    float y = 5;
-
-    printf("%f\n", x / y);
+    string name = get_string("Whats your name? ");
+    printf("Hello, %s\n", name);
 }
